@@ -12,7 +12,7 @@ class Category(models.Model):
     class Meta:
         verbose_name = "categoria"
         verbose_name_plural = "categorias"
-        ordering = ["-created"]    
+        ordering = ['-created']    
 
     def __str__(self):          
         return self.name
@@ -30,7 +30,7 @@ class Post(models.Model):
     class Meta:
         verbose_name = "entrada"
         verbose_name_plural = "entradas"
-        ordering = ["-created"]    
+        ordering = ['-created']    
 
     def __str__(self):          
         return self.title
